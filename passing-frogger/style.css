@@ -1,0 +1,92 @@
+body{
+    background-image: url('images/blue-sky_back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1, h3,h2{
+    text-align: center;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: solid, underline;
+}
+
+.square{
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    border-color: brown;
+    border-style: solid;
+}
+.grid{
+    position: absolute;
+    top:20%;
+    left: 35%;
+    display: flex;
+    flex-flow: wrap;
+    height: 380px;
+    width: 380px;
+    border-style: dashed;
+    background-color:rgb(177,155,33)
+}
+div{
+    height: 40px;
+    width:40px;
+    /* border: 1px solid;
+    border-color:black; */
+}
+.frog{
+    background-color:transparent;
+    background-image: url('images/frog.png');
+}
+.frog_on_road{
+    background-image: url('images/frog.png'), url('images/road.jpg') ;
+}
+.frog_on_wood{
+    background-image: url('images/frog.png'),url('images/wood.png'),url('images/river.png');
+}
+.wood{
+    background-color:transparent;
+    background-image: url('images/wood.png'),url('images/river.png');
+}
+.car{
+    background-color:transparent;
+    background-image: url('images/car.png'),url('images/road.jpg');
+}
+.river{
+    background-color:transparent;
+    /* transform: rotate(90deg); */
+    background-image: url('images/river.png');
+}
+.road{
+    background-color:transparent;
+    background-image: url('images/road.jpg');
+}
+.dead_on_road{
+    background-color:transparent;
+    background-image: url('images/dead.png'),url('images/road.jpg');
+}
+.dead_in_river{
+    background-color:transparent;
+    background-image: url('images/dead_2.png'),url('images/river.png');
+}
+.home{
+    border-radius: 30%;
+    background-color:transparent;
+    background-image: url('images/home.png');
+}
+
+.start_point{
+    border-radius: 30%;
+    background-color:transparent;
+    border: 2px solid;
+    border-color:blue
+}
+/* #start_btn{
+    border-radius: 10%;
+    background-color: bisque;
+    position: absolute;
+    top: 12%;
+    left:55%;
+    width: 70px;
+    height: 40px;
+} */

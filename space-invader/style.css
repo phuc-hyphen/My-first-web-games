@@ -1,0 +1,54 @@
+body{
+    background-image: url('images/space.jpg');
+    background-size: cover;
+}
+h1, h3,h2{
+    text-align: center;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: solid, underline;
+    color:azure
+}
+
+.square{
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+}
+.grid {
+    position: absolute;
+    top:20%;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    height: 523px;
+    width: 523px;
+    border-style:solid;
+    border-color:white;
+}
+div{
+    height: 30px;
+    width: 30px;
+    border-style:solid;
+}
+.ship{
+    border-radius: 30%;
+    background-color:transparent;
+    background-image: url('images/ship.png');
+}
+.alien{
+    border-radius: 30%;
+    background-color:transparent;
+    background-image: url('images/alien.png');
+}
+.bullet{
+    border-radius: 30%;
+    background-color:transparent;
+    background-image: url('images/bullet.png');
+}
+.boom{
+    border-radius: 30%;
+    background-color:transparent;
+    background-image: url('images/boom.png');
+}
